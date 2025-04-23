@@ -4,7 +4,8 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-sky-100 text-gray-800 p-6 font-sans">
       <header className="text-center py-10">
-        <h1 className="text-5xl font-bold text-sky-700 mb-4">PodcastPilot AI</h1>
+      <img src="/logo.png" alt="PodcastPilot AI Logo" className="w-32 mx-auto mb-4" />
+  <h1 className="text-5xl font-bold text-sky-700 mb-4">PodcastPilot AI</h1>
         <p className="text-xl">Turn your podcast episodes into viral content — effortlessly.</p>
         <div className="mt-6">
           <a href="#features" className="bg-sky-700 text-white px-6 py-3 rounded-full hover:bg-sky-800 transition">See How It Works</a>
