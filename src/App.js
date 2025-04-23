@@ -3,14 +3,25 @@ import React from 'react';
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-sky-100 text-gray-800 p-6 font-sans">
-      <header className="text-center py-10">
-      <img src="/logo.png" alt="PodcastPilot AI Logo" className="w-32 mx-auto mb-4" />
-  <h1 className="text-5xl font-bold text-sky-700 mb-4">PodcastPilot AI</h1>
-        <p className="text-xl">Turn your podcast episodes into viral content — effortlessly.</p>
-        <div className="mt-6">
-          <a href="#features" className="bg-sky-700 text-white px-6 py-3 rounded-full hover:bg-sky-800 transition">See How It Works</a>
-        </div>
-      </header>
+      <header className="bg-[#f9fafb] py-16 px-4 text-center">
+  <img
+    src="/logo.png"
+    alt="PodcastPilot AI Logo"
+    className="w-24 mx-auto mb-6"
+  />
+  <h1 className="text-5xl font-extrabold text-[#1e3a8a] leading-tight mb-4">
+    Turn Your Podcast Into Viral Content — Effortlessly
+  </h1>
+  <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+    PodcastPilot AI analyzes your episodes and generates smart clips, titles, and exports in seconds. No editing required.
+  </p>
+  <a
+    href="#features"
+    className="inline-block bg-[#1e3a8a] hover:bg-[#374bb2] text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
+  >
+    See How It Works
+  </a>
+</header>
 
       <section id="features" className="py-12 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Features</h2>
